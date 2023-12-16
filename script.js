@@ -6,6 +6,7 @@ const net = new brain.NeuralNetwork({
  * @type {{input: {r: number,g: number, b:number}, output: [number]}[]}
  */
 
+// After some training, just "print" the model data and paste it here to make the model more accurate
 const updatedTrainingData = [
   { input: { r: 0, g: 0, b: 0 }, output: [0] },
   { input: { r: 1, g: 1, b: 1 }, output: [1] },
